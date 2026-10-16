@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     // 1. 在服务端用 fetch 获取机场的订阅内容（完美绕过浏览器跨域）
     const subRes = await fetch(sub_url, {
       headers: {
-        'User-Agent': 'v2rayN/6.23 sing-box/1.8.0'
+        'User-Agent': 'mihomo'
       }
     });
 
